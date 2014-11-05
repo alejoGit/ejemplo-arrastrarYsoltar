@@ -1,0 +1,123 @@
+body{
+	background: url("../img/fondo.jpg");
+	margin:0;
+	padding: 0;
+}
+.contenedor{
+	position: relative;
+	width: 40%;
+	height: 300px;
+	box-shadow: 3px 3px 2px #000;
+	background: #A9C46E;
+	background: rgba(100,200,0,0.9);
+	margin: 0 auto;
+	color:black;
+}
+.ctnNumeros{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: #FFCC3F;
+	background:rgba(255,204,63,0.8);
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.ulNumeros{
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	background: #2A2822;
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 1em;
+
+
+	min-height: 10em;
+	min-width: 10em;
+
+}
+.ulNumeros li{
+	display: inline-block;
+	list-style: none;
+	width: 1em;
+	height: 1em;
+	font-family: monospace;
+	background: red;
+	font-size: 4em;
+	cursor: pointer;
+	text-align: center;
+	color:white;
+	margin-top: 3px;
+}
+.ulNumeros li:hover{
+	opacity: 0.7;
+}
+.secDividendo{
+	position: absolute;
+	
+	width: 50%;
+	height: 30%;
+	font-size: 4em;
+	text-align: right;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.secDivisor{
+	position: absolute;
+	width: 30%;
+	height: 28.2%;
+	right: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 4em;
+	text-align: left;
+	
+	border-left: 5px solid white;
+	border-bottom: 5px solid white;
+}
+.secResultado{
+	position: absolute;
+	width: 30%;
+	height: 28.2%;
+	right: 0;
+	top:30%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 4em;
+	text-align: left;
+	overflow: hidden;
+
+}
+
+.start{
+	background: rgba(90,90,90,0.4);
+	
+}
+#calcular{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 5em;
+	height: 2em;
+	background: red;
+	color:white;
+	font-size: 2em;
+}
+
+#limpiar{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 5em;
+	height: 2em;
+	background: green;
+	color:white;
+	font-size: 2em;
+}
+ #calcular:hover, #limpiar:hover{
+ 	cursor: pointer;
+ 	background: black;
+ 	color:orange;
+ }
